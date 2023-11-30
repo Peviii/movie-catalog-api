@@ -1,7 +1,7 @@
 
 ## Movie-Catalog-API
 
-Uma API de catalogo de filmes com autenticação jwt
+Uma API de catalogo de filmes com autenticação jwt e documentada com Swagger
 
 ```bash
 ### Tecnologias utilizadas:
