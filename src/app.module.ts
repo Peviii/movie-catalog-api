@@ -5,6 +5,8 @@ import { MovieModule } from './movie/movie.module';
 import { UserModule } from './user/user.module';
 import { RedisModule } from './config/redis.module';
 import { AuthModule } from './auth/auth.module';
+import { AppController } from './app.controller';
+import { AppService } from './app.service';
 
 @Module({
   imports: [
@@ -24,5 +26,7 @@ import { AuthModule } from './auth/auth.module';
     }),
     RedisModule,
   ],
+  controllers: [AppController],
+  providers: [AppService],
 })
 export class AppModule {}
